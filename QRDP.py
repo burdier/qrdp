@@ -6,9 +6,7 @@ import json
 #server configure
 with open("config.json") as json_file:
     json_data = json.load(json_file)
-
     server = json_data["server"]["host"]
-
 
 def desc():
     while True:
@@ -21,7 +19,6 @@ def desc():
         os.system("cls")
         print(username+ " logoff")
 print(""" 
-
 	Qrdp disconnect session by:Bursoft (Luis Miguel Burdier)
 
 			""" )
