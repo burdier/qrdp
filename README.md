@@ -1,4 +1,4 @@
-# Ardp
+# Qrdp
 Disconnect users of Windows sessions (RDP)
 
 #started 
@@ -10,7 +10,7 @@ example: c: \ users \ myuser> python qrdp.py
 
 If you can not disconnect a user of your server it is due to lack of permissions, run it with a user that has permission to disconnect a user.
 
-
+#Windows 
 if you do not run the qrdp.exe python file located in the qrdp.zip
 confg.json set the file opens the executable with administrator permissions on the remote server.
 
